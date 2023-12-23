@@ -38,9 +38,10 @@ return [
     'guards' => [
         'web' => [
             'driver' => 'session',
-            'provider' => 'users',
+            'provider' => 'vrs',
         ],
     ],
+    
 
     /*
     |--------------------------------------------------------------------------
@@ -60,15 +61,10 @@ return [
     */
 
     'providers' => [
-        'users' => [
+        'vrs' => [
             'driver' => 'eloquent',
-            'model' => App\Models\User::class,
+            'model' => App\Models\Vrs::class,
         ],
-
-        // 'users' => [
-        //     'driver' => 'database',
-        //     'table' => 'users',
-        // ],
     ],
 
     /*
@@ -91,13 +87,14 @@ return [
     */
 
     'passwords' => [
-        'users' => [
-            'provider' => 'users',
+        'vrs' => [
+            'provider' => 'vrs',
             'table' => 'password_reset_tokens',
             'expire' => 60,
             'throttle' => 60,
         ],
     ],
+    
 
     /*
     |--------------------------------------------------------------------------

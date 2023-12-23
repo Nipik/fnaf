@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('/image/message.png');
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    height: 280px;
+    padding: 20px;
+    background-color: #000000;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+h1 {
+    color: rgb(255, 169, 234);
+}
+
+p {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.link{
+    color: aqua;
+    text-decoration-line:none;
+    font-size: 20px;
+}
+.link:hover{
+    color: rgb(255, 255, 255);
+    transition: 1s;
+    text-decoration:underline;
+}
+.link-profil{
+    color: rgb(255, 172, 233);
+    text-decoration-line:none;
+    font-size: 20px;
+}
+.link-profil:hover{
+    color: rgb(255, 255, 255);
+    transition: 1s;
+    text-decoration:underline;
+}
+.link-profil{
+    position: relative;
+    top: 20px;
+}
+.link-button{
+    position: relative;
+    top: 50px;
+    border-color: pink;
+    color: #000000;
+    background-color: pink;
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+}
+.link-button:hover{
+    border-color: black;
+    color: pink;
+    background-color: black;
+    font-size: 30px;
+    transition: 1s;
+}

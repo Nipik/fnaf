@@ -1,0 +1,197 @@
+body {
+    background-image: url('/image/theme.png');
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#f89cd6;
+    margin: 0;
+    padding:0;
+    position: relative;
+    top: -20px;
+}
+
+header {
+    text-align: center;
+    padding: 0px 0;
+}
+
+h1 {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    margin: 0;
+}
+
+label {
+    display: block;
+    margin-top: 3px;
+    color:#000000;
+}
+
+input {
+    padding: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    width: 100%;
+    border-radius: 5px;
+}
+
+form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+
+form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+form {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s, transform 1s;
+}
+
+
+form.appear {
+    opacity: 1;
+    transform: translateY(0);
+}
+label,input{
+    position: relative;
+    top:-20px;
+}
+#btnJoin{
+    background-color: #f89cd6;
+    color: black;
+    font-size: large;
+    width: 310px;
+}
+#btnJoin:hover{
+    cursor: pointer;
+    color: beige;
+    background-color: #000;
+    transition: 1s;
+}
+
+#btnJoin {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f9beea;
+    color: #000000;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: pointer;
+    width: 310px;
+}
+
+#btnJoin:hover {
+    background-color: #000000;
+    transform: scale(1.1);
+    color: #f9beea;
+}
+
+#btnJoin:active {
+    transform: scale(1);
+}
+.content {
+    width: 500px;
+    height: 800px;
+    margin: 0px auto;
+    background: #fff;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 40px 0px 0px 0px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, .3);
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+  header {
+    text-align: center;
+}
+
+h1 {
+    color: #ff66b2; 
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ff66b2; 
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ff66b2; 
+    border-radius: 5px;
+}
+
+#btnJoin {
+    background-color: #ff66b2; 
+    color: #fff; 
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btnJoin:hover {
+    background-color: #ff3385; 
+}
+
+form.appear {
+    animation: appear 1s ease-out;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+}
+@keyframes shake {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    10%, 30%, 50%, 70%, 90% {
+        transform: translateX(-10px);
+    }
+    20%, 40%, 60%, 80% {
+        transform: translateX(10px);
+    }
+}
+.alert-danger {
+    color: #e60000;
+    animation: shake 1s;
+    position: relative;
+    top: -28px;
+}
+.btn-signup{
+    text-decoration: none;
+    color: #ff69b4;
+    font-size: large;
+    position: relative;
+    left: 165px;
+}   
+.btn-signup:hover {
+    color: #000000; 
+    transform: scale(1.1);
+    font-size: 20px;
+    text-decoration: underline;
+}
+

@@ -1,0 +1,60 @@
+
+body {
+    background-color: #f5e1ea; 
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    opacity: 0; 
+    animation: fade-in 0.5s ease-in-out forwards; 
+}
+
+h1 {
+    color: #ff75a0; 
+    text-align: center;
+}
+
+p {
+    color: #696969; 
+    text-align: center;
+    margin: 20px 0;
+}
+
+form {
+    text-align: center;
+}
+
+.cute-button {
+    background-color: #ff75a0; 
+    color: #fff; 
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.cute-button:hover {
+    background-color: #f3004d; 
+    font-size: large;
+}
+
+.cute-link {
+    color: #ff75a0; 
+    text-decoration: none;
+    margin-top: 10px;
+    position: relative;
+    left: 650px;
+    top: 10px;
+}
+
+.cute-link:hover {
+    text-decoration: underline; 
+    color: green;
+}
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

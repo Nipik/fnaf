@@ -1,0 +1,82 @@
+body {
+    background-color: #ffd699;
+    font-family: "Comic Sans MS", cursive, sans-serif; 
+    background-image: url('/image/star.avif');
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #ff69b4;
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 50px auto;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s;
+    background-image: url('background.png'); 
+    background-size: cover;
+}
+
+.container:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #ff69b4; 
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.form-group {
+    margin: 10px 0;
+}
+
+.form-control {
+    width: 85%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ff69b4; 
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.btn-signin {
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 10px;
+    color: #fff;
+    transition: color 0.3s, transform 0.3s;
+    position: relative;
+    left: 150px;
+    background-color:#ff69b4; 
+    border-color: #ff69b4;
+    border-radius: 20px;
+    position: relative;
+    left: 120px;
+}
+
+.btn-signin:hover {
+    color: #ff69b4; 
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: #fff;
+    border-color: #ff69b4;
+}
+
+.btn-signup {
+    text-decoration: none;
+    color: #ff69b4;
+    font-size: large;
+}
+
+.btn-signup:hover {
+    color: #ff69b4; 
+    transform: scale(1.1);
+    font-size: 20px;
+    text-decoration: underline;
+}

@@ -1,0 +1,76 @@
+body {
+    background-image: url('/image/theme.png');
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #ff69b4;
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 50px auto;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s;
+}
+
+.container:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #ff69b4;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.form-group {
+    margin: 10px 0;
+}
+
+.form-control {
+    width: 85%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ff69b4; 
+    border-radius: 5px;
+}
+
+.btn-signin {
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 10px;
+    color: #000000; 
+    transition: color 0.3s, transform 0.3s;
+    position: relative;
+    left: 150px;
+    background-color:#ff69b4;
+    border-color: #ff69b4;
+}
+
+.btn-signin:hover {
+    color: #ff69b4; 
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: #000000;
+    border-color: #000000;
+}
+.btn-signup{
+    text-decoration: none;
+    color: #ff69b4;
+    font-size: large;
+}   
+.btn-signup:hover {
+    color: #000000; 
+    transform: scale(1.1);
+    font-size: 20px;
+    text-decoration: underline;
+}
+.alert.alert-danger{
+    color: red;
+}
