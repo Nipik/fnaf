@@ -1,0 +1,90 @@
+body {
+    background-image: url('/image/heart.avif');
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y:hidden ;
+    
+}
+.content {
+    width: 960px;
+    height:1000px;
+    margin: 0px auto;
+    background: #fff;
+    text-align: center;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 40px 0px 0px 0px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, .3);
+    position: relative;
+    top: -35px;
+  
+  }
+  p{
+    color: black;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 950px;
+  }
+  h1{
+    color: rgb(62, 3, 73);
+  }
+  .congratulation{
+    width: 300px;
+    position: relative;
+    left: 500px;
+  }
+  .looking{
+    position: relative;
+    left: -240px;
+    width: 305px;
+  }
+  .btn-confirm{
+    color: rgb(255, 255, 255);
+    background-color: rgb(14, 208, 50);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-color: rgb(14, 208, 50);
+    border-style: solid  ;
+    cursor: pointer;
+    height: 70px;
+    width: 130px;
+    border-radius: 2px;
+    transition: background-color 1s,color 1s;
+    position: relative;
+    top: 50px;
+    right: 10px;
+    font-size: 20px;
+}
+.btn-confirm:hover{
+    background-color: rgb(115, 242, 147);
+    color: rgb(240, 240, 240);
+    border-color: rgb(115, 242, 147);
+}
+.btn-confirm:active{
+    opacity: 0.7;
+}
+.btn-refuse{
+    color: rgb(255, 255, 255);
+    background-color: rgb(208, 14, 14);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-color: rgb(208, 14, 14);
+    border-style: solid  ;
+    cursor: pointer;
+    height: 70px;
+    width: 130px;
+    border-radius: 2px;
+    transition: background-color 1s,color 1s;
+    position: relative;
+    top: 50px;
+    right: 598px;
+    font-size: 20px;
+}
+.btn-refuse:hover{
+    background-color: rgb(227, 77, 77);
+    color: rgb(240, 240, 240);
+    border-color: rgb(227, 77, 77);
+}
+.btn-refuse:active{
+    opacity: 0.7;
+}

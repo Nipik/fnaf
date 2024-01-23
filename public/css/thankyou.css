@@ -1,0 +1,65 @@
+body {
+    background-image: url('/image/heart.avif');
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.container {
+    background-color: #000000; 
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    height: 220px;
+}
+
+h1 {
+    color: #FFFFFF; 
+}
+
+p {
+    color: #FFFFFF; 
+}
+
+.heart {
+    color: #FF1493;
+    animation: beat 1s infinite;
+    transform-origin: center;
+}
+
+@keyframes beat {
+    0% {
+        transform: scale(1.2);
+    }
+    50% {
+        transform: scale(3);
+    }
+    100% {
+        transform: scale(1.2); 
+    }
+}
+.link{
+    color: aqua;
+    text-decoration-line:none;
+    font-size: 20px;
+}
+.link:hover{
+    color: rgb(255, 255, 255);
+    transition: 1s;
+    text-decoration:underline;
+}
+.link-profil{
+    color: rgb(255, 172, 233);
+    text-decoration-line:none;
+    font-size: 20px;
+}
+.link-profil:hover{
+    color: rgb(255, 255, 255);
+    transition: 1s;
+    text-decoration:underline;
+}
+.link-profil{
+    position: relative;
+    top: 20px;
+}
