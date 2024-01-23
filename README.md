@@ -5,9 +5,8 @@ Un projet de site web basé sur le populaire jeu vidéo "Five Nights at Freddy's
 
 ## Captures d'écran
 ![2024-01-21 17_27_21-Greenshot](https://github.com/Nipik/fnaf/assets/129624834/76cee98d-71ab-4766-ba67-7c091092fb4b)
-![Uploading 2024-01-21 17_27_57-Greenshot.png…]()
-![2024-01-21 17_40_24-Greenshot](https://github.com/Nipik/fnaf/assets/129624834/ec8bef72-d8cb-43f9-88f9-e2320a55cd72)
-![Uploading 2024-01-21 17_24_44-Greenshot.png…]()
+![Uploading img4.png…]()
+
 
 ## Installation
 1. Clonez le projet : `git clone https://github.com/votre-utilisateur/nom-du-projet.git`
