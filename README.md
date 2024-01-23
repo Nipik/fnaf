@@ -31,7 +31,7 @@ Un projet de site web basé sur le populaire jeu vidéo "Five Nights at Freddy's
 ## Licence
 MIT License
 
-Copyright (c) [année] [nom du détenteur du droit d'auteur]
+Copyright (c) ping Nipik
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
